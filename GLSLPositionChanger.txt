@@ -1,0 +1,12 @@
+#version 450
+
+//http://www.lighthouse3d.com/opengl/glsl/
+//http://www.lighthouse3d.com/tutorials/glsl-core-tutorial/
+
+layout(location = 0) in vec4 position;
+void main()
+{
+    gl_Position = position;
+}
+
+
